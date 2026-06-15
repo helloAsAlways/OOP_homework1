@@ -23,6 +23,11 @@ namespace my_project
         {
             Console.WriteLine("Sky is beautiful");
         }
-        
+        public static void main(string[] args)
+        {
+            Lecturer("Jackson Sami", "Computer Engineering", 27);
+            InspirationalSpeech();
+            beginLecture();
+        }
     }
 }
